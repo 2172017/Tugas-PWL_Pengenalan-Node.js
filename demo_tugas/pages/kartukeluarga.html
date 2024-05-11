@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kartu Keluarga</title>
+    <style>
+
+        .button-container {
+            text-align: center;
+            margin-left: 850px;
+        }
+
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ffff00;
+            color: #333;
+
+        }
+
+
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        table {
+            background-color: #fff;
+            border-collapse: collapse;
+            width: 60%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+        }
+
+        table:hover {
+            background-color: #f2f2f2;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        th:hover {
+            background-color: white;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 50px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            transition: color 0.3s ease;
+        }
+
+        h1:hover {
+            color: #4CAF50;
+        }
+
+    </style>
+</head>
+<body>
+<h1 >DATA KARTU KELUARGA</h1>
+
+
+<table>
+    <tr>
+        <th colspan="3">Kartu Keluarga</th>
+    </tr>
+    <tr>
+        <th >No</th>
+        <th >Nama Kepala Keluarga</th>
+
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Budi</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Anto</td>
+    </tr>
+</table>
+
+<div class="button-container">
+    <a href="?menu=home" class="button">Home</a>
+</div>
+
+
+</body>
+</html>
